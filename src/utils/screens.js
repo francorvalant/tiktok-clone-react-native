@@ -1,3 +1,4 @@
+// Screens de Navegacion.
 const home = {
     tab: "HomeTab",
     home: "Home",
@@ -18,9 +19,18 @@ const account = {
     home: "account",
 };
 
+
+//Screens Auth.
+const auth = {
+    auth: "Auth",
+}
+
+
+//return
 export const screen = {
     home,
     trends,
     notifications,
     account,
+    auth,
 };
