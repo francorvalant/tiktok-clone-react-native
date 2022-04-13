@@ -14,7 +14,6 @@ const myTheme = createTheme({
 
 export default function App() {
   return (
-
     <ThemeProvider theme={myTheme}>
       <AuthProvider>
         <RootNavigation />
